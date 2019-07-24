@@ -1,0 +1,16 @@
+
+Menu cari data absensi
+============================================================
+Ctrl_Beranda------------->Ctrl_satker---------------->Ctrl_Rekap_Absen
+(M_Satker & v_beranda)    (M_Satker & v_pegawai)      (M_Rekap_Absen)
+
+
+Ctrl_Beranda--------------->Ctrl_DetailPegawai-------------->Ctrl_AbsenPegawai
+(M_Satker & v_beranda)      (M_Pegawai & v_detilPegawai)      (M_Pegawai & v_AbsenPegawai)
+
+
+
+Menu semua pegawai :
+=============================================================
+Ctrl_Get_All_IDAbsen---------------------->Ctrl_DetailPegawai------------------->Ctrl_AbsenPegawai
+(M_IDAbsenSatker & v_AllIDAbsenPeg)	   (M_Pegawai & v_detilPegawai)		(M_Pegawai & v_AbsenPegawai)
